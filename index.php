@@ -52,8 +52,7 @@
 				  <div class="form-group">
                     <label for="salary" class="control-label">Age:</label>
                     <input type="text" class="form-control" id="age" name="age"/>
-                  </div>
-                
+                  </div>                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -85,8 +84,7 @@
 				  <div class="form-group">
                     <label for="salary" class="control-label">Age:</label>
                     <input type="text" class="form-control" id="edit_age" name="edit_age"/>
-                  </div>
-                
+                  </div>                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
