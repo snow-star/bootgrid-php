@@ -10,28 +10,27 @@
 <script src="dist/jquery.bootgrid.min.js"></script>
 </head>
 <body>
-	<div class="container">
-      <div class="">
-        <h1>Local Test</h1>
-        <div class="col-sm-8">
-		<div class="well clearfix">
-			<div class="pull-right"><button type="button" class="btn btn-xs btn-primary" id="command-add" data-row-id="0">
-			<span class="glyphicon glyphicon-plus"></span> Record</button></div></div>
-		<table id="employee_grid" class="table table-condensed table-hover table-striped" width="60%" cellspacing="0" data-toggle="bootgrid">
-			<thead>
-				<tr>
-					<th data-column-id="id" data-type="numeric" data-identifier="true">Empid</th>
-					<th data-column-id="employee_name">Name</th>
-					<th data-column-id="employee_salary">Salary</th>
-					<th data-column-id="employee_age">Age</th>
-					<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
-				</tr>
-			</thead>
-		</table>
-    </div>
-      </div>
-    </div>
-	
+<div class="container">
+  <div class="">
+    <h1>Local Test</h1>
+    <div class="col-sm-8">
+	<div class="well clearfix">
+		<div class="pull-right"><button type="button" class="btn btn-xs btn-primary" id="command-add" data-row-id="0">
+		<span class="glyphicon glyphicon-plus"></span> Record</button></div></div>
+	<table id="employee_grid" class="table table-condensed table-hover table-striped" width="60%" cellspacing="0" data-toggle="bootgrid">
+		<thead>
+			<tr>
+				<th data-column-id="id" data-type="numeric" data-identifier="true">Empid</th>
+				<th data-column-id="employee_name">Name</th>
+				<th data-column-id="employee_salary">Salary</th>
+				<th data-column-id="employee_age">Age</th>
+				<th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
+			</tr>
+		</thead>
+	</table>
+</div>
+  </div>
+</div>	
 <div id="add_model" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
